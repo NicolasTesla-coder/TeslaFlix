@@ -1,0 +1,104 @@
+<html>
+
+    <head>
+		<link rel="icon" href="Icones/TF.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <title>Teslaflix - Filmes e Séries de Puro CONHECIMENTO</title>
+
+        <style>
+            .curve-text span:nth-child(1) {
+                transform: scaleY(1);
+            }
+
+            .curve-text span:nth-child(2) {
+                transform: scaleY(0.95);
+            }
+
+            .curve-text span:nth-child(3) {
+                transform: scaleY(0.9);
+            }
+
+            .curve-text span:nth-child(4) {
+                transform: scaleY(0.85);
+            }
+
+            .curve-text span:nth-child(5) {
+                transform: scaleY(0.8);
+            }
+
+            .curve-text span:nth-child(6) {
+                transform: scaleY(0.85);
+            }
+
+            .curve-text span:nth-child(7) {
+                transform: scaleY(0.9);
+            }
+
+            .curve-text span:nth-child(8) {
+                transform: scaleY(0.95);
+            }
+
+            .curve-text span:nth-child(9) {
+                transform: scaleY(1);
+            }
+        </style>
+
+        <script>
+            function SaveLink(number) {
+                if (number == 1) {
+                    sessionStorage.setItem("FilmLink", "https://www.youtube.com/embed/Gz8Ico8_D_c")
+                }else if (number == 2) {
+                    sessionStorage.setItem("FilmLink", "https://fembedder.com/e/1168709-dub")
+                }else if (number == 3) {
+                    sessionStorage.setItem("FilmLink", "https://www.youtube.com/embed/F3OxA9Cz17A")
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo-container">
+                <div class="curve-text">
+                    <span>T</span>
+                    <span>E</span>
+                    <span>S</span>
+                    <span>L</span>
+                    <span>A</span>
+                    <span>F</span>
+                    <span>L</span>
+                    <span>I</span>
+                    <span>X</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="chamada">
+            <div class="chamada-texto">
+                <h1>Filmes e Séries de Puro CONHECIMENTO, Com Nikolas Tesla | Albert Einstein | Robert Oppenheimer</h1>
+                <p>#Evolução</p>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h2>Filmes</h2>
+            <div class="categoria-videos">
+                <a href="playfilm.html" onclick="SaveLink(1)">
+                    <img src= "Capas/Tesla_O_Homem_Elétrico.png"/>
+                </a>
+                <a href="playfilm.html" onclick="SaveLink(2)">
+                    <img src= "Capas/Einstein_e_a_Bomba.png"/>
+                </a>
+                <a href="playfilm.html" onclick="SaveLink(3)">
+                    <img src= "Capas/Oppenheimer.png"/>
+                </a>
+            </div>
+        </section>
+
+    </body>
+
+</html>

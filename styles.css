@@ -1,0 +1,73 @@
+body{
+    color:white;
+    background:black;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px rgb(42, 122, 228);
+    margin: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+}
+
+.chamada{
+    /*background: rgb(13 26 60);*/
+    background: linear-gradient(rgba(13, 26, 60, 0.35), rgb(0, 0, 0)), url('TeslaBg.png');
+    background-size: cover;
+    background-position: center;
+    /*background-blend-mode: lighten;*/
+    height: 50vh;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    text-align: center;
+    margin-right: 5%;
+}
+
+h1{
+    font-size:40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.curve-text {
+    text-align: center;
+    justify-content: left;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.curve-text span {
+    display: inline-block;
+    position: relative;
+    transform-origin: center top;
+}
